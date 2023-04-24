@@ -1,6 +1,8 @@
 #南華大學 11024151
 使用Google Colaboratory進行辨識圖片中的人臉
+
 程式碼:
+
 import cv2
 from google.colab import files
 from google.colab.patches import cv2_imshow
@@ -28,4 +30,4 @@ for (x, y, w, h) in faces:
 #顯示結果圖片
 cv2_imshow(img)
 cv2.waitKey()
-cv2.destroyAllWindows()
+cv2.destroyAllWindows()]
